@@ -1,0 +1,112 @@
+div.container {
+    width: 100%;
+    margin: 0px;
+    border: 1px solid gray;
+    line-height: 150%;
+}
+
+div.header  {
+    display: inline;
+    height: 50px;
+    background-color: blue;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 0.99em;
+    color: white;
+    clear: left;
+}
+
+div.footer {
+    padding: 0.01em;
+    color: white;
+    background-color: blue;
+    clear: left;
+}
+
+h1.header {
+    padding: 0;
+    margin: 0;
+}
+
+a:link {
+    color: white;
+    background-color:transparent;
+    text-decoration:none;
+    float: right;
+    padding-right: 2cm;
+}
+a:visited {
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+    float: left;
+}
+a:hover {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+div.left {
+    top: 75px;
+    bottom: 75px;
+    position: fixed;
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+div.left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+div.left li {
+    margin: 10;
+    line-height: 3;
+}
+
+div.left a {
+    color: blue;
+    width: 100px;
+    background-color: transparent;
+    float: left;
+}
+
+div.content {
+    margin-left: 190px;
+    border-left: 1px solid blue;
+    padding: 1em;
+    height: auto;
+}
+
+div.newsItem {
+    margin-top: 5px;
+    border-bottom: 1px solid blue;
+}
+
+div.newsItem img.right {
+    float: right;
+    padding-right: 2.5cm;
+}
+
+div.newsItem img.left {
+    float: left;
+}
+
+div.newsItem p.right {
+    padding-left: 3cm;
+}
+
+div.newsItem p.left {
+    padding-right: 12cm;
+}
