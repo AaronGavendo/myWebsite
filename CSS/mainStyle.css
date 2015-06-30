@@ -82,6 +82,25 @@ div.left a {
     float: left;
 }
 
+div.newsItem ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+div.newsItem li {
+    margin: 0;
+    line-height: 1.25;
+}
+
+div.newsItem a {
+    color: blue;
+    width: 1000px;
+    background-color: transparent;
+    float: left;
+}
+
 div.content {
     margin-left: 190px;
     border-left: 1px solid blue;
@@ -108,5 +127,5 @@ div.newsItem p.right {
 }
 
 div.newsItem p.left {
-    padding-right: 12cm;
+    padding-right: 3cm;
 }
