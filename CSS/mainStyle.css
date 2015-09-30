@@ -96,6 +96,13 @@ div.newsItem li {
 
 div.newsItem a {
     color: blue;
+    width: 100px;
+    background-color: transparent;
+    float: left;
+}
+
+div.newsItem a.list {
+    color: blue;
     width: 1000px;
     background-color: transparent;
     float: left;
@@ -113,13 +120,33 @@ div.newsItem {
     border-bottom: 1px solid blue;
 }
 
+p {
+    margin-right: 100px;
+}
+
 div.newsItem img.right {
     float: right;
-    padding-right: 1.5cm;
+    padding-right: 0.5cm;
+    padding-left: 75px;
 }
 
 div.newsItem img.left {
     float: left;
+}
+
+div.gallery {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: center;
+    text-align: center;
+}
+
+div.galtext {
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 div.newsItem p.right {
