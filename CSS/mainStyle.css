@@ -121,13 +121,17 @@ div.newsItem {
 }
 
 p {
-    margin-right: 100px;
+    margin-right: 325px;
+}
+
+p.rp10 {
+    margin-right: 10px;
 }
 
 div.newsItem img.right {
     float: right;
     padding-right: 0.5cm;
-    padding-left: 75px;
+    padding-left: 25px;
 }
 
 div.newsItem img.left {
