@@ -120,9 +120,11 @@ div.newsItem {
     border-bottom: 1px solid blue;
 }
 
-p {
-    margin-right: 325px;
+div.newsItem p {
+    padding-right: 325px;
 }
+
+
 
 p.rp10 {
     margin-right: 10px;
@@ -159,4 +161,38 @@ div.newsItem p.right {
 
 div.newsItem p.left {
     padding-right: 12cm;
+}
+
+div.dataTable {
+    margin-top: 5px;
+    border-bottom: 1px solid blue;
+}
+
+div.dataTable a {
+    color: blue;
+    width: 100px;
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 25px;
+    background-color: transparent;
+    float: left;
+}
+
+div.dataTable p {
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 25px;
+    background-color: transparent;
+    float: left;
+}
+
+div.newsItem img.right {
+    float: right;
+    padding-right: 0.5cm;
+    padding-left: 25px;
+}
+
+div.newsItem img.left {
+    float: left;
 }
