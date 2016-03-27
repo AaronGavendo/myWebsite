@@ -170,29 +170,27 @@ div.dataTable {
 
 div.dataTable a {
     color: blue;
-    width: 100px;
-    height: 50px;
-    padding-left: 100px;
-    padding-top: 25px;
+    height: 60px;
     background-color: transparent;
-    float: left;
+    text-decoration:none;
+    padding-right: 2cm;
+    padding-left: 2cm;
+    padding-top: 0.5cm;
+}
+
+div.dataTable a:hover {
+    background-color:transparent;
+    text-decoration:underline;
 }
 
 div.dataTable p {
-    width: 200px;
     height: 50px;
-    padding-left: 10px;
-    padding-top: 25px;
+    padding-top: 5px;
     background-color: transparent;
     float: left;
 }
 
-div.newsItem img.right {
-    float: right;
-    padding-right: 0.5cm;
-    padding-left: 25px;
+div.dataTable td {
+    padding: 5px;
 }
 
-div.newsItem img.left {
-    float: left;
-}
