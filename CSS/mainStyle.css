@@ -184,13 +184,11 @@ div.dataTable a:hover {
 }
 
 div.dataTable p {
-    height: 50px;
-    padding-top: 5px;
-    background-color: transparent;
     float: left;
 }
 
 div.dataTable td {
     padding: 5px;
 }
+
 
