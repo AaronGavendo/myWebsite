@@ -1,7 +1,7 @@
 div.container {
     width: 100%;
     margin: 0px;
-    border: 1px solid gray;
+
     line-height: 150%;
 }
 
@@ -189,6 +189,7 @@ div.dataTable p {
 
 div.dataTable td {
     padding: 5px;
+    text-align: center; 
 }
 
 
